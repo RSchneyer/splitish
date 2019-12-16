@@ -1506,21 +1506,21 @@ Wire Wire Line
 	3050 2100 3200 2100
 Wire Wire Line
 	3600 2100 3750 2100
-Text GLabel 1650 3000 0    50   Input ~ 0
+Text GLabel 3050 2700 2    50   Input ~ 0
 COL4
-Text GLabel 1650 2900 0    50   Input ~ 0
+Text GLabel 3050 2800 2    50   Input ~ 0
 COL5
-Text GLabel 1650 2800 0    50   Input ~ 0
-COL6
-Text GLabel 1650 2700 0    50   Input ~ 0
-COL7
 Text GLabel 1650 2600 0    50   Input ~ 0
-COL8
+COL6
 Text GLabel 1650 2500 0    50   Input ~ 0
-COL9
+COL7
 Text GLabel 1650 2400 0    50   Input ~ 0
-COL10
+COL8
 Text GLabel 1650 2300 0    50   Input ~ 0
+COL9
+Text GLabel 1650 2000 0    50   Input ~ 0
+COL10
+Text GLabel 1650 1900 0    50   Input ~ 0
 COL11
 $Comp
 L power:+5V #PWR0102
@@ -1574,16 +1574,16 @@ Text GLabel 3050 3000 2    50   Input ~ 0
 ROW3
 Text GLabel 3050 2900 2    50   Input ~ 0
 ROW2
-Text GLabel 3050 2800 2    50   Input ~ 0
+Text GLabel 1650 3000 0    50   Input ~ 0
 ROW1
-Text GLabel 3050 2700 2    50   Input ~ 0
+Text GLabel 1650 2900 0    50   Input ~ 0
 ROW0
-Text GLabel 3050 2400 2    50   Input ~ 0
-COL2
-Text GLabel 3050 2600 2    50   Input ~ 0
-COL0
 Text GLabel 3050 2500 2    50   Input ~ 0
-COL1
+COL2
 Text GLabel 3050 2300 2    50   Input ~ 0
+COL0
+Text GLabel 3050 2400 2    50   Input ~ 0
+COL1
+Text GLabel 3050 2600 2    50   Input ~ 0
 COL3
 $EndSCHEMATC
