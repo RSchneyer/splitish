@@ -16,12 +16,12 @@ $EndDescr
 $Comp
 L promicro:ProMicro U?
 U 1 1 5DF6D553
-P 2350 2650
-F 0 "U?" H 2350 3687 60  0000 C CNN
-F 1 "ProMicro" H 2350 3581 60  0000 C CNN
-F 2 "" H 2450 1600 60  0000 C CNN
-F 3 "" H 2450 1600 60  0000 C CNN
-	1    2350 2650
+P 3400 3550
+F 0 "U?" H 3400 4587 60  0000 C CNN
+F 1 "ProMicro" H 3400 4481 60  0000 C CNN
+F 2 "" H 3500 2500 60  0000 C CNN
+F 3 "" H 3500 2500 60  0000 C CNN
+	1    3400 3550
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1437,153 +1437,4 @@ Wire Wire Line
 Connection ~ 10050 4150
 Wire Wire Line
 	10050 4150 10050 3450
-Wire Wire Line
-	10500 4850 10500 4150
-Connection ~ 10500 2750
-Wire Wire Line
-	10500 2750 10500 2350
-Connection ~ 10500 3450
-Wire Wire Line
-	10500 3450 10500 2750
-Connection ~ 10500 4150
-Wire Wire Line
-	10500 4150 10500 3450
-Text GLabel 4800 3150 0    50   Input ~ 0
-ROW0
-Text GLabel 4800 3850 0    50   Input ~ 0
-ROW1
-Text GLabel 4800 4550 0    50   Input ~ 0
-ROW2
-Text GLabel 4800 5250 0    50   Input ~ 0
-ROW3
-Text GLabel 5450 2350 1    50   Input ~ 0
-COL0
-Text GLabel 5950 2350 1    50   Input ~ 0
-COL1
-Text GLabel 6400 2350 1    50   Input ~ 0
-COL2
-Text GLabel 6850 2350 1    50   Input ~ 0
-COL3
-Text GLabel 7300 2350 1    50   Input ~ 0
-COL4
-Text GLabel 7750 2350 1    50   Input ~ 0
-COL5
-Text GLabel 8200 2350 1    50   Input ~ 0
-COL6
-Text GLabel 8650 2350 1    50   Input ~ 0
-COL7
-Text GLabel 9100 2350 1    50   Input ~ 0
-COL8
-Text GLabel 9600 2350 1    50   Input ~ 0
-COL9
-Text GLabel 10050 2350 1    50   Input ~ 0
-COL10
-Text GLabel 10500 2350 1    50   Input ~ 0
-COL11
-$Comp
-L Switch:SW_Push SW?
-U 1 1 5E0235E5
-P 3400 2100
-F 0 "SW?" H 3400 2385 50  0000 C CNN
-F 1 "SW_Push" H 3400 2294 50  0000 C CNN
-F 2 "" H 3400 2300 50  0001 C CNN
-F 3 "~" H 3400 2300 50  0001 C CNN
-	1    3400 2100
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5E024418
-P 3750 2100
-F 0 "#PWR?" H 3750 1850 50  0001 C CNN
-F 1 "GND" H 3755 1927 50  0000 C CNN
-F 2 "" H 3750 2100 50  0001 C CNN
-F 3 "" H 3750 2100 50  0001 C CNN
-	1    3750 2100
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3050 2100 3200 2100
-Wire Wire Line
-	3600 2100 3750 2100
-Text GLabel 3050 2700 2    50   Input ~ 0
-ROW0
-Text GLabel 3050 2800 2    50   Input ~ 0
-ROW1
-Text GLabel 3050 2900 2    50   Input ~ 0
-ROW2
-Text GLabel 3050 3000 2    50   Input ~ 0
-ROW3
-Text GLabel 3050 2300 2    50   Input ~ 0
-COL0
-Text GLabel 3050 2400 2    50   Input ~ 0
-COL1
-Text GLabel 3050 2500 2    50   Input ~ 0
-COL2
-Text GLabel 3050 2600 2    50   Input ~ 0
-COL3
-Text GLabel 1650 3000 0    50   Input ~ 0
-COL4
-Text GLabel 1650 2900 0    50   Input ~ 0
-COL5
-Text GLabel 1650 2800 0    50   Input ~ 0
-COL6
-Text GLabel 1650 2700 0    50   Input ~ 0
-COL7
-Text GLabel 1650 2600 0    50   Input ~ 0
-COL8
-Text GLabel 1650 2500 0    50   Input ~ 0
-COL9
-Text GLabel 1650 2400 0    50   Input ~ 0
-COL10
-Text GLabel 1650 2300 0    50   Input ~ 0
-COL11
-$Comp
-L power:+5V #PWR?
-U 1 1 5E04B6C3
-P 3150 1750
-F 0 "#PWR?" H 3150 1600 50  0001 C CNN
-F 1 "+5V" H 3165 1923 50  0000 C CNN
-F 2 "" H 3150 1750 50  0001 C CNN
-F 3 "" H 3150 1750 50  0001 C CNN
-	1    3150 1750
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3050 2200 3150 2200
-Wire Wire Line
-	3150 2200 3150 1750
-$Comp
-L power:GND #PWR?
-U 1 1 5E054598
-P 3100 2000
-F 0 "#PWR?" H 3100 1750 50  0001 C CNN
-F 1 "GND" H 3105 1827 50  0000 C CNN
-F 2 "" H 3100 2000 50  0001 C CNN
-F 3 "" H 3100 2000 50  0001 C CNN
-	1    3100 2000
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3050 2000 3100 2000
-$Comp
-L power:GND #PWR?
-U 1 1 5E05CD64
-P 1250 2200
-F 0 "#PWR?" H 1250 1950 50  0001 C CNN
-F 1 "GND" H 1255 2027 50  0000 C CNN
-F 2 "" H 1250 2200 50  0001 C CNN
-F 3 "" H 1250 2200 50  0001 C CNN
-	1    1250 2200
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1650 2200 1600 2200
-Wire Wire Line
-	1650 2100 1600 2100
-Wire Wire Line
-	1600 2100 1600 2200
-Connection ~ 1600 2200
-Wire Wire Line
-	1600 2200 1250 2200
 $EndSCHEMATC
