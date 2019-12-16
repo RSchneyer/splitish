@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 0)
+    (drawings 12)
     (tracks 0)
     (zones 0)
     (modules 98)
@@ -241,7 +241,7 @@
     (add_net ROW3)
   )
 
-  (module promicro:ProMicro (layer F.Cu) (tedit 5A06A962) (tstamp 5DF789EB)
+  (module promicro:ProMicro (layer F.Cu) (tedit 5A06A962) (tstamp 5DF79EC7)
     (at 98.425 33.528 270)
     (descr "Pro Micro footprint")
     (tags "promicro ProMicro")
@@ -318,7 +318,7 @@
       (net 70 "Net-(U1-Pad1)"))
   )
 
-  (module random-keyboard-parts:SKQG-1155865 (layer B.Cu) (tedit 5C42C5DE) (tstamp 5DF74007)
+  (module random-keyboard-parts:SKQG-1155865 (layer B.Cu) (tedit 5C42C5DE) (tstamp 5DF79F8B)
     (at 112.014 35.941 270)
     (path /5E0235E5)
     (attr smd)
@@ -3531,7 +3531,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 5DF7382E)
-    (at 125.603 29.591 90)
+    (at 125.603 29.337 90)
     (descr SOD-123)
     (tags SOD-123)
     (path /5DF736AD)
@@ -4101,5 +4101,18 @@
       (rotate (xyz 0 0 0))
     )
   )
+
+  (gr_circle (center 50.8 94.14375) (end 52.7 94.14375) (layer Edge.Cuts) (width 0.05) (tstamp 5DF79FE8))
+  (gr_circle (center 50.8 18.25625) (end 52.7 18.25625) (layer Edge.Cuts) (width 0.05) (tstamp 5DF79FE6))
+  (gr_circle (center 279.4 18.25625) (end 281.3 18.25625) (layer Edge.Cuts) (width 0.05) (tstamp 5DF79FE3))
+  (gr_circle (center 279.4 94.45625) (end 281.3 94.45625) (layer Edge.Cuts) (width 0.05))
+  (gr_line (start 280.19375 15.08125) (end 50.00625 15.08125) (layer Edge.Cuts) (width 0.05) (tstamp 5DF79E44))
+  (gr_line (start 282.575 95.25) (end 282.575 17.4625) (layer Edge.Cuts) (width 0.05) (tstamp 5DF79E43))
+  (gr_line (start 50.00625 97.63125) (end 280.19375 97.63125) (layer Edge.Cuts) (width 0.05) (tstamp 5DF79E42))
+  (gr_line (start 47.625 17.4625) (end 47.625 95.25) (layer Edge.Cuts) (width 0.05) (tstamp 5DF79E41))
+  (gr_arc (start 50.00625 17.4625) (end 50.00625 15.08125) (angle -90) (layer Edge.Cuts) (width 0.05))
+  (gr_arc (start 50.00625 95.25) (end 47.625 95.25) (angle -90) (layer Edge.Cuts) (width 0.05))
+  (gr_arc (start 280.19375 95.25) (end 280.19375 97.63125) (angle -90) (layer Edge.Cuts) (width 0.05))
+  (gr_arc (start 280.19375 17.4625) (end 282.575 17.4625) (angle -90) (layer Edge.Cuts) (width 0.05))
 
 )
