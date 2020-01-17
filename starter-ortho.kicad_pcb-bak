@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 9)
+    (drawings 10)
     (tracks 511)
     (zones 0)
     (modules 98)
@@ -11,8 +11,8 @@
 
   (page A4)
   (layers
-    (0 F.Cu signal hide)
-    (31 B.Cu signal hide)
+    (0 F.Cu signal)
+    (31 B.Cu signal)
     (32 B.Adhes user)
     (33 F.Adhes user)
     (34 B.Paste user)
@@ -4063,6 +4063,9 @@
     )
   )
 
+  (gr_text "Electronics face down!" (at 148.971 30.734 90) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
   (gr_line (start 282.575 94.45625) (end 15.08125 95.25) (layer Edge.Cuts) (width 0.05) (tstamp 5DFA058B))
   (gr_line (start 284.95625 90.4875) (end 284.95625 92.075) (layer Edge.Cuts) (width 0.05) (tstamp 5DFA058A))
   (gr_arc (start 282.575 92.075) (end 282.575 94.45625) (angle -90) (layer Edge.Cuts) (width 0.05))
