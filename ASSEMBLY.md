@@ -14,7 +14,7 @@
 ## Step 1
 Carefully solder all 48 SMD diodes to the bottom of the PCB. On both versions of the splitish PCB, the Cathode end of the diode (the end with the little line) should be facing the user when the keyboard is being used.
 
-![diode alignment](https://i.imgur.com/9uPWjRA.png)
+![diode alignment](https://raw.githubusercontent.com/RSchneyer/splitish/master/media/diode_alignment.png)
 
 # Step 2
 Now that all 48 diodes are properly soldered, you can solder in all 48 switches. The switches should have PCB mount legs that will help align the switch and keep it in place while you solder the metal pins, but a piece of tape can also be used to hold a switch in place.
@@ -22,7 +22,7 @@ Now that all 48 diodes are properly soldered, you can solder in all 48 switches.
 # Step 3
 After soldering all the switches, the next step is to solder the reset button and the Pro Micro. Solder the header pin strips to the PCB first, then the Pro Micro on top, aligned so that all the onboard components face the splitish PCB.
 
-![pro micro and diode](https://i.imgur.com/8kM1eBT.jpg)
+![pro micro and diode](https://raw.githubusercontent.com/RSchneyer/splitish/master/media/reset_and_pro_micro_soldered.jpg)
 
 # Step 4
 Attach the rubber bumpons/feet to the underside of the PCB, so that all the solder joints are not touching the work surface. Attach the keycaps, and using QMK, flash the default firmware to the splitish. Assuming you have a QMK environment properly setup on your PC, the command should be
